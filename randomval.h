@@ -5,13 +5,16 @@
         #define NPERM 250     // Default number of permutations to apply
     #endif
         
-    #ifndef OVERRIDE_DEFAULT_INTTYPE
+   /* #ifndef OVERRIDE_DEFAULT_INTTYPE
         typedef int IntType;  // The default integer type of the function
     #endif
 
     #ifndef OVERRIDE_DEFAULT_FRACTYPE
         typedef double FracType;  // The default integer type of the function
-    #endif
+    #endif*/
+
+    typedef int IntType;
+    typedef double FracType;
      
     
     // Integer functions prototypes
